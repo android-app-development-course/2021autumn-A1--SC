@@ -27,3 +27,5 @@
 
 <img src="https://user-images.githubusercontent.com/90509899/147814144-a9ec9ced-0fd1-41d7-805d-923074de0fa9.png" height="600" width="300" />    <img src="https://user-images.githubusercontent.com/90509899/147814152-6f539aad-1253-4e2d-b55f-2e48bf5eeb39.png" height="600" width="300" />    <img src="https://user-images.githubusercontent.com/90509899/147814157-37bfb1c0-2a44-48e2-8524-6cd8afe9c0a2.png" height="600" width="300" />
 
+### 开启动画
+<img src="https://user-images.githubusercontent.com/90509899/147814452-bcbf81d0-deb9-4c7e-b05f-a778ed7ce491.gif" height="600" width="300" />
