@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    顶部导航栏-->
+    <LinearLayout
+        android:id="@+id/goods_detail_topbar"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/goods_detail_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+<!--滚动视图-->
+    <ScrollView
+        android:layout_below="@+id/goods_detail_topbar"
+        android:layout_marginBottom="51dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--用户头像+用户名-->
+            <LinearLayout
+                android:id="@+id/goods_detail_userinfo_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp">
+                <!--    用户信息-->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/goods_detail_user_pic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp" />
+
+                <TextView
+                    android:id="@+id/goods_detail_nicheng"
+                    android:text="昵称"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <!--商品价格-->
+            <TextView
+                android:id="@+id/goods_detail_goods_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goods_detail_userinfo_bar"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="20dp"
+                android:maxLines="1"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+            <!--商品描述-->
+            <TextView
+                android:id="@+id/goods_detail_goods_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goods_detail_goods_price"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="18dp"
+                android:textColor="#495057"
+                android:textSize="18sp" />
+            <!--商品照片-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/goods_detail_pic_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goods_detail_goods_description"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <!--底部导航栏-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dee2e6"
+        android:layout_alignTop="@+id/goods_detail_bottom_bar"/>
+    <RelativeLayout
+        android:id="@+id/goods_detail_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/goods_detail_goods_buy"
+            android:layout_alignParentEnd="true"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffea00">
+                <TextView
+                    android:id="@+id/goods_detail_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="我想要"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/goods_detail_bottom_liuyan"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_toStartOf="@+id/goods_detail_bottom_star"
+            android:src="@drawable/message_2" />
+
+        <ImageView
+            android:id="@+id/goods_detail_bottom_star"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_toStartOf="@+id/goods_detail_goods_buy"
+            android:src="@drawable/star" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

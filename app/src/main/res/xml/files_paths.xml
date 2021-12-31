@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <root-path
+        name="root"
+        path="." />
+    <files-path
+        name="files"
+        path="." />
+    <cache-path
+        name="cache"
+        path="/"/>
+    <external-path
+        name="external"
+        path="." />
+    <external-cache-path
+        name="external_cache"
+        path="." />
+    <external-files-path
+        name="external_file"
+        path="." />
+</paths>
+
+<!--<files-path>：内部存储空间应用私有目录下的 files/ 目录，等同于 Context.getFilesDir() 所获取的目录路径；
+<cache-path>：内部存储空间应用私有目录下的 cache/ 目录，等同于 Context.getCacheDir() 所获取的目录路径；
+<external-path>：外部存储空间根目录，等同于 Environment.getExternalStorageDirectory() 所获取的目录路径；
+<external-files-path>：外部存储空间应用私有目录下的 files/ 目录，等同于 Context.getExternalFilesDir(null) 所获取的目录路径；
+<external-cache-path>：外部存储空间应用私有目录下的 cache/ 目录，等同于 Context.getExternalCacheDir()；
+
+作者：WotYang
+链接：https://www.jianshu.com/p/112e9ae03e7f
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。-->

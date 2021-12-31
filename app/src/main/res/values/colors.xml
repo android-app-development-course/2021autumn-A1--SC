@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#d00000</color>
+    <color name="light_blue">#a8dadc</color>
+    <color name="light_yellow">#fee440</color>
+
+    <color name="light_gray">#ebf2fa</color>
+    <color name="cyan_blue">#bee9e8</color>
+    <color name="dark_blue">#1b4965</color>
+    <color name="light_black">#495057</color>
+
+    <!--主页-->
+    <color name="home_background">#E9ECEF</color>
+
+
+<!--基本界面颜色-->
+    <!--文字输入框底色-->
+    <color name="edit_background"></color>
+
+    <!--背景底色-->
+    <color name="window_background"></color>
+
+    <!--按钮底色-->
+    <color name="button_background">#4091c9</color>
+
+    <!--背景底色-->
+
+</resources>

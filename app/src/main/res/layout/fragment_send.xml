@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    顶部导航栏-->
+
+
+    <RelativeLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_button"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#ffea00"
+            app:cardCornerRadius="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="发 布"
+                android:textColor="#343a40" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <!--   文字描述栏 -->
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title_edit"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:hint="请输入标题......"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/describe_edit"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:hint="请输入一段描述......"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    分割线-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9ecef"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <!--    图片加载栏-->
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/select_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+    <!--    底部输入部分：价格-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9ecef"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        <ImageView
+            android:id="@+id/price_icon"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/price" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/price_icon"
+            android:gravity="center"
+            android:text="价格"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/price_edit"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="￥0.00"
+            android:inputType="number|numberDecimal"
+            android:textColor="#dc2f02"
+            android:textColorHint="#dc2f02" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

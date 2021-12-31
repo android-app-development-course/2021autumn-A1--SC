@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validatecode">短信验证码</string>
+    <string name="sendcode">发送验证码</string>
+    <string name="loginbymobile">手机号登陆</string>
+    <string name="newpassword">请输入新密码</string>
+    <string name="rememberpassword">记 住 密 码</string>
+</resources>

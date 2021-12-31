@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ico_logo_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/rememberPsd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cb_selector"
+        android:button="@null"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/validatecode" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="@string/rememberpassword"
+        android:textColor="@color/light_black"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/validatecode"
+        app:layout_constraintTop_toBottomOf="@+id/validatecode" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit_text_background"
+        android:cursorVisible="true"
+        android:hint="@string/username"
+        android:paddingLeft="20dp"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textCursorDrawable="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/validatecode"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/password"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:password="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background"
+        android:hint="@string/login"
+        android:textColorHint="@color/white"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:textColor="@color/light_black"
+        app:layout_constraintBottom_toBottomOf="@+id/register"
+
+        app:layout_constraintEnd_toEndOf="@+id/login"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/register" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/light_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias=".1" />
+
+    <TextView
+        android:id="@+id/login_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/loginbymobile"
+        android:textColor="@color/light_black"
+        app:layout_constraintBottom_toBottomOf="@+id/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/register" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

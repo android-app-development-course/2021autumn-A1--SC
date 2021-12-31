@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/button.xml" value="0.3828125" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/cb_selector.xml" value="0.27291666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/edit_text_background.xml" value="0.3296875" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3411458333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/image_corner_background.xml" value="0.3411458333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/rectangle.xml" value="0.2734375" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/search_background.xml" value="0.3411458333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/drawable/search_button_background.xml" value="0.3411458333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/activity_collect.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/collect_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/empty.xml" value="0.3596014492753623" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/forgetpassword.xml" value="0.34375" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_goods.xml" value="0.24427083333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_goods_detail.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_home.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_message.xml" value="0.45" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_my.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_search.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_select_sendtype.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_send.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_send_shiwu.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/fragment_user_info.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/goods_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/goods_detail_fragment.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/goods_detail_pic_card.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/image.xml" value="0.33177083333333335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/login.xml" value="0.3125" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/login_mobile.xml" value="0.34375" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/messagebox.xml" value="0.375" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/name_message_box.xml" value="0.22552083333333334" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/order_detail.xml" value="0.375" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/order_list.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/orderfragment.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/pic_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/rectangle.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/search.xml" value="0.25833333333333336" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/toolbar.xml" value="0.2617753623188406" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/user_info.xml" value="0.335" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/user_info_edit2.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/layout/wave_icon.xml" value="0.36666666666666664" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21875" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/xml/files_paths.xml" value="0.24427083333333333" />
+        <entry key="..\:/mi/Android/AndroidProjects/TextBottonNav/app/src/main/res/xml/network_security_config.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/info_back_button"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我 的 信 息"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintVertical_bias="0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/order" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="账号"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/user_account"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:background="@color/white"
+            android:src="@drawable/myinfo2" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="昵称"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/ni_cheng_edit"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:hint="@string/unedit"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="4dp"
+            android:src="@drawable/myinfo3" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="学号"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/school_num_edit"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:hint="@string/unedit" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="6dp"
+            android:src="@drawable/myinfo4" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="学院"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/school_edit"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:hint="@string/unedit" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="7dp"
+            android:src="@drawable/myinfo5" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="性别"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/sex_edit"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:hint="@string/unedit" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="1dp"
+            android:src="@drawable/myinfo6" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:text="地址"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/address_edit"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:hint="@string/unedit" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="保 存"
+        android:textSize="15sp"
+        android:textColorHint="@color/white"/>
+
+</LinearLayout>

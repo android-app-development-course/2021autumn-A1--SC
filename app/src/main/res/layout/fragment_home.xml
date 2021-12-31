@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--标题栏：搜索框+分类标签-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/goods_fragment_app_bar_layout"
+        android:background="#ffffff"
+        android:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/goods_fragment_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f8f9fa">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/search_icon"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:id="@+id/goods_fragment_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:layout_marginRight="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+<!--滑动浏览部分-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/goods_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/goods_fragment_app_bar_layout" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/send_goods_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/add_bold" />
+
+
+</RelativeLayout>
